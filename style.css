@@ -58,6 +58,7 @@ header nav a:hover {
 .wrap .sec_one {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30vh;
 }
 .wrap .sec_one .left {
   padding-top: 10vh;
@@ -237,4 +238,152 @@ header nav a:hover {
 .wrap .sec_one .right .five {
   bottom: 0;
   right: -11%;
+}
+.wrap .sec_two {
+  padding-left: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  margin-bottom: 20vh;
+}
+.wrap .sec_two .top {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+.wrap .sec_two .top h3 {
+  font-family: Ruda;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+}
+.wrap .sec_two .top span {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgb(215, 215, 215);
+}
+.wrap .sec_two .top button {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: white;
+  background: none;
+  padding: 15px 30px;
+  border: 2px solid rgb(201, 34, 227);
+  /* Начальный цвет */
+  animation: borderFlow 3s infinite linear;
+}
+.wrap .sec_two .down {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  justify-content: space-between;
+}
+.wrap .sec_two .down .one {
+  position: relative;
+  width: 45%;
+  background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
+  background-size: 200% 200%;
+  animation: gradientMove 3s infinite linear;
+  border-radius: 5px;
+}
+.wrap .sec_two .down .one .plastine {
+  position: absolute;
+  right: 0;
+  top: 30%;
+  width: 25%;
+  height: 17vh;
+  background: rgb(35, 35, 35);
+  padding-top: 2.5%;
+  padding-left: 4%;
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
+}
+.wrap .sec_two .down .one .plastine img {
+  animation: plastine 4s infinite linear;
+}
+@keyframes plastine {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+.wrap .sec_two .down .two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap .sec_two .down .two .main {
+  width: 130%;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+}
+.wrap .sec_two .down .two span {
+  display: flex;
+  align-items: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(215, 215, 215);
+}
+.wrap .sec_three {
+  text-align: center;
+  margin-bottom: 30vh;
+}
+.wrap .sec_three h1 {
+  font-family: Ruda;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+  margin-bottom: 10vh;
+}
+.wrap .sec_three .parent {
+  display: flex;
+  color: white;
+  background: rgb(33, 21, 56);
+  border-radius: 5px;
+  justify-content: space-around;
+}
+.wrap .sec_three .parent .item {
+  padding: 7vh 0;
+  width: 25%;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+.wrap .sec_three .parent .item img {
+  margin-bottom: 2vh;
+}
+.wrap .sec_three .parent .item h2 {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 2vh;
+}
+.wrap .sec_three .parent .item span {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(215, 215, 215);
+}
+.wrap .sec_three .parent .item:hover {
+  transform: translateY(-50px);
+  background: linear-gradient(134.83deg, rgba(197, 34, 228, 0.3) 0%, rgba(90, 25, 244, 0.3) 96.35%);
 }/*# sourceMappingURL=style.css.map */
