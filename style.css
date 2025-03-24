@@ -1,0 +1,240 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ruda", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background: #060A16;
+}
+
+header {
+  padding: 3vh 5%;
+  display: flex;
+  justify-content: space-between;
+}
+header .logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header .logo img {
+  width: 45px;
+}
+header .logo p {
+  font-family: Ruda;
+  color: white;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+header nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+header nav a {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  line-height: 100%;
+  letter-spacing: 0%;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+  transition: 0.2s;
+}
+header nav a:hover {
+  opacity: 0.5;
+}
+
+.wrap {
+  padding: 0% 5%;
+}
+.wrap .sec_one {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .sec_one .left {
+  padding-top: 10vh;
+  align-items: start;
+}
+.wrap .sec_one .left h1 {
+  font-family: Ruda;
+  color: white;
+  font-weight: 600;
+  font-size: 84px;
+  line-height: 82px;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+}
+.wrap .sec_one .left h1 span {
+  font-family: "Ruda", sans-serif;
+  font-weight: 600;
+  font-size: 84px;
+  line-height: 82px;
+  letter-spacing: 0%;
+  background: linear-gradient(101.9deg, rgb(201, 34, 227) 7.67%, rgb(153, 30, 234) 52.66%, rgb(73, 23, 246) 93.7%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientFlow 3s infinite linear;
+}
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.wrap .sec_one .left p {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgb(215, 215, 215);
+  padding-left: 7px;
+  margin-bottom: 3vh;
+}
+.wrap .sec_one .left .watch {
+  padding-left: 7px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+.wrap .sec_one .left .watch .image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(201, 34, 227);
+  /* Начальный цвет */
+  animation: borderFlow 3s infinite linear;
+}
+@keyframes borderFlow {
+  0% {
+    border-color: rgb(201, 34, 227);
+  }
+  33% {
+    border-color: rgb(153, 30, 234);
+  }
+  66% {
+    border-color: rgb(73, 23, 246);
+  }
+  100% {
+    border-color: rgb(201, 34, 227);
+  }
+  /* Завершаем тем же цветом */
+}
+.wrap .sec_one .left .watch .image-wrapper img {
+  width: 20px;
+  height: 20px;
+}
+.wrap .sec_one .left .watch button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 18px 35px;
+  background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
+  background-size: 200% 200%;
+  animation: gradientMove 3s infinite linear;
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.wrap .sec_one .left .watch p {
+  padding-top: 30px;
+  font-size: 18px;
+}
+.wrap .sec_one .left .count {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 7px;
+  color: white;
+  background: rgba(255, 255, 255, 0.13);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  padding: 4% 6%;
+}
+.wrap .sec_one .left .count .item {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .sec_one .left .count .item h2 {
+  font-family: Ruda;
+  background: none;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.wrap .sec_one .left .count .item span {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  background: none;
+  color: rgb(215, 215, 215);
+}
+.wrap .sec_one .right {
+  position: relative;
+  width: 50%;
+}
+.wrap .sec_one .right img {
+  position: absolute;
+}
+.wrap .sec_one .right .one {
+  top: 35%;
+  right: 15%;
+  z-index: 1;
+}
+.wrap .sec_one .right .two {
+  top: 5%;
+  left: 15%;
+}
+.wrap .sec_one .right .three {
+  top: 10%;
+  right: 35%;
+}
+.wrap .sec_one .right .four {
+  top: 10%;
+  right: -5%;
+  z-index: 2;
+}
+.wrap .sec_one .right .five {
+  bottom: 0;
+  right: -11%;
+}/*# sourceMappingURL=style.css.map */
