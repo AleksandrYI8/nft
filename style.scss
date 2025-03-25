@@ -414,7 +414,7 @@ header {
 
     .sec_three {
         text-align: center;
-        margin-bottom: 30vh;
+        margin-bottom: 20vh;
 
         h1 {
             font-family: Ruda;
@@ -428,7 +428,7 @@ header {
         }
 
         .parent {
-            
+
             display: flex;
             color: white;
             background: rgba(33, 21, 56, 1);
@@ -468,7 +468,7 @@ header {
             }
 
             .item:hover {
-                
+
                 transform: translateY(-50px);
                 background: linear-gradient(134.83deg, rgba(197, 34, 228, 0.3) 0%, rgba(90, 25, 244, 0.3) 96.35%);
 
@@ -477,5 +477,98 @@ header {
 
 
         }
+    }
+
+    .sec_four {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-family: Ruda;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: white;
+            margin-bottom: 10vh;
+        }
+
+        .parent {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-bottom: 10vh;
+
+            
+
+            .item {
+
+                .img {
+                    display: flex;
+                    gap: 5%;
+                    margin-bottom: 3vh;
+
+
+                    .left {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+                }
+
+                .item_item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2vh;
+                        h3 {
+                            font-family: Open Sans;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            color: white;
+                        }
+
+                        span {
+                            font-family: Open Sans;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            color: rgba(215, 215, 215, 1);
+                        }
+                    }
+
+                    .arrow {
+                        width: 30px;
+                    }
+                }
+            }
+        }
+
+        button {
+
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 18px 35px;
+            background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
+            background-size: 200% 200%;
+            animation: gradientMove 3s infinite linear;
+        }
+
     }
 }
