@@ -485,6 +485,8 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 20vh;
+
 
         h2 {
             font-family: Ruda;
@@ -502,9 +504,14 @@ header {
             width: 100%;
             margin-bottom: 10vh;
 
-            
+
 
             .item {
+                border: 1px solid;
+                padding: 50px;
+                padding-right: 70px;
+                border-radius: 10px;
+                animation: borderFlow 3s infinite linear;
 
                 .img {
                     display: flex;
@@ -528,6 +535,7 @@ header {
                         display: flex;
                         flex-direction: column;
                         gap: 2vh;
+
                         h3 {
                             font-family: Open Sans;
                             font-weight: 600;
@@ -570,5 +578,130 @@ header {
             animation: gradientMove 3s infinite linear;
         }
 
+    }
+
+    .sec_five {
+
+        margin-bottom: 20vh;
+
+
+        h2 {
+            text-align: center;
+            font-family: Ruda;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: white;
+            margin-bottom: 10vh;
+        }
+
+        .parent {
+            width: 80%;
+            margin-left: 10%;
+            display: flex;
+            justify-content: center;
+            gap: 5%;
+            flex-wrap: wrap;
+            position: relative;
+
+            .left_arr {
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                top: 35%;
+                left: -10%;
+                padding: 20px;
+                width: fit-content;
+                background: rgba(217, 217, 217, 0.08);
+                transition: .2s;
+
+
+                img {
+                    transform: rotate(180deg);
+                    width: 25px;
+                }
+            }
+
+            .right_arr {
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                top: 35%;
+                right: -10%;
+                padding: 20px;
+                width: fit-content;
+                background: rgba(217, 217, 217, 0.08);
+                transition: .2s;
+
+                img {
+                    width: 25px;
+                }
+            }
+
+
+            .item {
+                width: 30%;
+                padding: 2%;
+                display: flex;
+                color: white;
+                align-items: center;
+                gap: 10%;
+                border-radius: 10px;
+                margin-bottom: 5vh;
+                background: rgba(217, 217, 217, 0.08);
+                transition: .3s;
+
+                .left {
+                    width: 100px;
+                }
+
+                .right {
+                    h3 {
+                        font-family: Open Sans;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: rgba(255, 255, 255, 1);
+                        margin-bottom: 1vh;
+                    }
+
+                    span {
+                        font-family: Open Sans;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: rgba(215, 215, 215, 1);
+                    }
+                }
+            }
+
+
+            .item:hover {
+                background: linear-gradient(134.83deg, rgba(197, 34, 228, 0.3) 0%, rgba(90, 25, 244, 0.3) 96.35%);
+            }
+
+            .left_arr:hover {
+                background: linear-gradient(134.83deg, rgba(197, 34, 228, 0.3) 0%, rgba(90, 25, 244, 0.3) 96.35%);
+            }
+
+            .left_arr:active {
+                scale: .9;
+            }
+
+            .right_arr:active {
+                scale: .9;
+            }
+
+            .right_arr:hover {
+                background: linear-gradient(134.83deg, rgba(197, 34, 228, 0.3) 0%, rgba(90, 25, 244, 0.3) 96.35%);
+            }
+        }
     }
 }
