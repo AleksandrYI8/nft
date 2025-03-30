@@ -704,4 +704,185 @@ header {
             }
         }
     }
+
+
+    .sec_six {
+
+        margin-bottom: 20vh;
+
+        h2 {
+            text-align: center;
+            font-family: Ruda;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: white;
+            margin-bottom: 10vh;
+        }
+
+        .parent {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-bottom: 10vh;
+
+
+            .item {
+                border: 1px solid;
+                padding: 50px;
+                border-radius: 10px;
+                animation: borderFlow 3s infinite linear;
+                width: fit-content;
+
+                .img {
+
+                    margin-bottom: 2vh;
+
+
+                }
+
+                .admin {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 3vh;
+
+                    .left {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+                        .img_box {
+                            height: 30px;
+                            width: 30px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding-left: 2px;
+                            border-radius: 50%;
+                            border: 1px solid #000;
+                            animation: borderFlow 3s infinite linear;
+
+                            img {
+                                width: 20px;
+                            }
+                        }
+
+                        span {
+                            font-family: Open Sans;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            background: linear-gradient(101.9deg, rgba(201, 34, 227, 1) 7.67%, rgba(153, 30, 234, 1) 52.66%, rgba(73, 23, 246, 1) 93.7%);
+                            background-size: 200% 200%;
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            animation: gradientFlow 3s infinite linear;
+
+                        }
+
+                    }
+
+                    .right {
+                        span {
+                            font-family: Open Sans;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            text-align: right;
+                            color: rgba(215, 215, 215, 1);
+                        }
+
+                    }
+
+
+                }
+
+                .info {
+                    margin-bottom: 5vh;
+
+                    h3 {
+                        font-family: Open Sans;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: rgba(255, 255, 255, 1);
+                        margin-bottom: 2vh;
+                    }
+
+                    span {
+                        font-family: Open Sans;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        color: rgba(215, 215, 215, 1);
+
+
+                    }
+                }
+
+                .nav {
+                    display: flex;
+                    justify-content: space-between;
+
+                    button {
+                        font-family: "Open Sans", sans-serif;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: white;
+                        border: none;
+                        border-radius: 10px;
+                        padding: 13px 20px;
+                        background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
+                        background-size: 200% 200%;
+                        animation: gradientMove 3s infinite linear;
+                    }
+
+                    .links {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 15px;
+
+                        .img_box {
+                            height: 45px;
+                            width: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 50%;
+                            border: 1px solid #000;
+                            animation: borderFlow 3s infinite linear;
+
+                            img {
+                                width: 26px;
+                            }
+                        }
+
+                        .img_box_sec {
+                            height: 45px;
+                            width: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding-right: 2px;
+                            border-radius: 50%;
+                            border: 1px solid #000;
+                            animation: borderFlow 3s infinite linear;
+
+                            img {
+                                width: 26px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

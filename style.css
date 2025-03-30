@@ -572,4 +572,150 @@ header nav a:hover {
 }
 .wrap .sec_five .parent .right_arr:hover {
   background: linear-gradient(134.83deg, rgba(197, 34, 228, 0.3) 0%, rgba(90, 25, 244, 0.3) 96.35%);
+}
+.wrap .sec_six {
+  margin-bottom: 20vh;
+}
+.wrap .sec_six h2 {
+  text-align: center;
+  font-family: Ruda;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+  margin-bottom: 10vh;
+}
+.wrap .sec_six .parent {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+.wrap .sec_six .parent .item {
+  border: 1px solid;
+  padding: 50px;
+  border-radius: 10px;
+  animation: borderFlow 3s infinite linear;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.wrap .sec_six .parent .item .img {
+  margin-bottom: 2vh;
+}
+.wrap .sec_six .parent .item .admin {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3vh;
+}
+.wrap .sec_six .parent .item .admin .left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.wrap .sec_six .parent .item .admin .left .img_box {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  animation: borderFlow 3s infinite linear;
+}
+.wrap .sec_six .parent .item .admin .left .img_box img {
+  width: 20px;
+}
+.wrap .sec_six .parent .item .admin .left span {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  background: linear-gradient(101.9deg, rgb(201, 34, 227) 7.67%, rgb(153, 30, 234) 52.66%, rgb(73, 23, 246) 93.7%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientFlow 3s infinite linear;
+}
+.wrap .sec_six .parent .item .admin .right span {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: rgb(215, 215, 215);
+}
+.wrap .sec_six .parent .item .info {
+  margin-bottom: 5vh;
+}
+.wrap .sec_six .parent .item .info h3 {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 2vh;
+}
+.wrap .sec_six .parent .item .info span {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgb(215, 215, 215);
+}
+.wrap .sec_six .parent .item .nav {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .sec_six .parent .item .nav button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 13px 20px;
+  background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
+  background-size: 200% 200%;
+  animation: gradientMove 3s infinite linear;
+}
+.wrap .sec_six .parent .item .nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.wrap .sec_six .parent .item .nav .links .img_box {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #000;
+  animation: borderFlow 3s infinite linear;
+}
+.wrap .sec_six .parent .item .nav .links .img_box img {
+  width: 26px;
+}
+.wrap .sec_six .parent .item .nav .links .img_box_sec {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 2px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  animation: borderFlow 3s infinite linear;
+}
+.wrap .sec_six .parent .item .nav .links .img_box_sec img {
+  width: 26px;
 }/*# sourceMappingURL=style.css.map */
