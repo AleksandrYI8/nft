@@ -718,4 +718,105 @@ header nav a:hover {
 }
 .wrap .sec_six .parent .item .nav .links .img_box_sec img {
   width: 26px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+footer ul a {
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(215, 215, 215);
+}
+footer .item {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+footer .item h2 {
+  font-family: DM Sans;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+}
+footer .item span {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgb(215, 215, 215);
+}
+footer .item .links {
+  display: flex;
+  gap: 10%;
+}
+footer .item .links .img_box {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
+  background-size: 200% 200%;
+  animation: gradientMove 3s infinite linear;
+}
+footer .item .links .img_box img {
+  width: 30px;
+  height: 30px;
+}
+footer .item .email_inpt {
+  width: 100%;
+  position: relative;
+}
+footer .item .email_inpt input {
+  width: 80%;
+  padding: 15px 20px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  background: none;
+  outline: none;
+  border: 0.6px solid rgb(215, 215, 215);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  overflow: hidden;
+  color: rgb(215, 215, 215);
+  border-right: none;
+}
+footer .item .email_inpt button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 60px;
+  background: none;
+  border: 0.6px solid black;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  animation: borderFlow 3s infinite linear;
+}
+footer .item .email_inpt button img {
+  width: 25px;
 }/*# sourceMappingURL=style.css.map */
