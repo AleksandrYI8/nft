@@ -287,7 +287,9 @@ header nav a:hover {
   justify-content: space-between;
 }
 .wrap .sec_two .down .one {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 45%;
   background: linear-gradient(101.9deg, rgba(201, 34, 227, 0.4) 7.67%, rgba(153, 30, 234, 0.4) 52.66%, rgba(73, 23, 246, 0.4) 93.7%);
   background-size: 200% 200%;
@@ -295,14 +297,12 @@ header nav a:hover {
   border-radius: 5px;
 }
 .wrap .sec_two .down .one .plastine {
-  position: absolute;
-  right: 0;
-  top: 30%;
-  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23%;
   height: 17vh;
   background: rgb(35, 35, 35);
-  padding-top: 2.5%;
-  padding-left: 4%;
   border-top-left-radius: 90px;
   border-bottom-left-radius: 90px;
 }
