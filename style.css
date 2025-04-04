@@ -819,4 +819,70 @@ footer .item .email_inpt button {
 }
 footer .item .email_inpt button img {
   width: 25px;
+}
+
+@media (max-width: 1024px) {
+  header nav a {
+    font-size: 16px;
+  }
+  .wrap .sec_four {
+    display: none;
+  }
+  .wrap .sec_six {
+    display: none;
+  }
+  .wrap .sec_one .left h1 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .wrap .sec_one .left h1 span {
+    line-height: 55px;
+    font-size: 50px;
+  }
+  .wrap .sec_one .left p {
+    font-size: 12px;
+  }
+  .wrap .sec_one .left .watch button {
+    font-size: 14px;
+    padding: 15px 25px;
+  }
+  .wrap .sec_one .left .watch .image-wrapper {
+    width: 45px;
+    height: 45px;
+  }
+  .wrap .sec_one .left .watch .image-wrapper img {
+    width: 15px;
+    height: 15px;
+  }
+  .wrap .sec_one .left .watch p {
+    font-size: 14px;
+  }
+  .wrap .sec_one .left .count .item h2 {
+    font-size: 23px;
+  }
+  .wrap .sec_one .left .count .item span {
+    font-size: 14px;
+  }
+  .wrap .sec_one .right .one {
+    width: 80%;
+    top: 25%;
+    right: 10%;
+  }
+  .wrap .sec_one .right .two {
+    width: 20%;
+    top: 5%;
+    left: 0%;
+  }
+  .wrap .sec_one .right .three {
+    width: 12%;
+    right: 50%;
+  }
+  .wrap .sec_one .right .four {
+    width: 30%;
+    top: 10%;
+  }
+  .wrap .sec_one .right .five {
+    width: 15%;
+    bottom: 10%;
+  }
 }/*# sourceMappingURL=style.css.map */

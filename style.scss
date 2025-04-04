@@ -975,7 +975,6 @@ footer {
                 overflow: hidden;
                 color: rgba(215, 215, 215, 1);
                 border-right: none
-
             }
 
             button {
@@ -988,12 +987,12 @@ footer {
                 bottom: 0;
                 width: 60px;
                 background: none;
-                border:  .6px solid black;
+                border: .6px solid black;
                 border-top-right-radius: 5px;
                 border-bottom-right-radius: 5px;
                 animation: borderFlow 3s infinite linear;
 
-                img{
+                img {
                     width: 25px;
                 }
             }
@@ -1003,3 +1002,113 @@ footer {
     }
 
 }
+
+@media (max-width: 1024px) {
+    header {
+        nav {
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .wrap {
+
+        .sec_four {
+            display: none;
+        }
+
+        .sec_six {
+            display: none;
+        }
+
+        .sec_one {
+            .left {
+                h1 {
+                    font-size: 50px;
+                    line-height: 55px;
+
+                    span {
+                        line-height: 55px;
+                        font-size: 50px;
+                    }
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                .watch {
+                    button {
+                        font-size: 14px;
+                        padding: 15px 25px;
+                    }
+
+                    .image-wrapper {
+                        width: 45px;
+                        height: 45px;
+
+                        img{
+                            width: 15px;
+                            height: 15px;
+                        }
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+
+                }
+
+                .count {
+                    .item {
+                        h2 {
+                            font-size: 23px;
+                        }
+
+                        span {
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+            }
+
+            .right {
+
+                .one {
+                    width: 80%;
+                    top: 25%;
+                    right: 10%;
+                }
+
+                .two {
+                    width: 20%;
+                    top: 5%;
+                    left: 0%;
+                }
+
+                .three {
+                    width: 12%;
+                    right: 50%;
+                }
+
+                .four {
+                    width: 30%;
+                    top: 10%;
+                }
+
+                .five{
+                    width: 15%;
+                    bottom: 10%;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 786px) {}
+
+@media (max-width: 480px) {}
