@@ -302,11 +302,21 @@ header {
         gap: 10vh;
         margin-bottom: 20vh;
 
+        .ee {
+            display: flex;
+            gap: 10%;
+            white-space: nowrap;
+            align-items: center;
+        }
+
 
         .top {
             display: flex;
+            justify-content: space-between;
             align-items: center;
             gap: 10%;
+
+
 
             h3 {
                 font-family: Ruda;
@@ -985,7 +995,7 @@ footer {
                 right: 0;
                 top: 0;
                 bottom: 0;
-                width: 60px;
+                width: 20%;
                 background: none;
                 border: .6px solid black;
                 border-top-right-radius: 5px;
@@ -1014,15 +1024,13 @@ footer {
 
     .wrap {
 
-        .sec_four {
-            display: none;
-        }
 
-        .sec_six {
-            display: none;
-        }
+
+
 
         .sec_one {
+            margin-bottom: 15vh;
+
             .left {
                 h1 {
                     font-size: 50px;
@@ -1048,7 +1056,7 @@ footer {
                         width: 45px;
                         height: 45px;
 
-                        img{
+                        img {
                             width: 15px;
                             height: 15px;
                         }
@@ -1098,14 +1106,349 @@ footer {
                     top: 10%;
                 }
 
-                .five{
+                .five {
                     width: 15%;
                     bottom: 10%;
                 }
             }
         }
 
+        .sec_two {
+            .top {
+                gap: 5%;
+
+                h3 {
+                    font-size: 25px;
+                    white-space: nowrap;
+                }
+
+                span {
+                    font-size: 14px;
+                    white-space: nowrap;
+                }
+
+                button {
+                    font-size: 14px;
+                    white-space: nowrap;
+                    padding: 10px 20px;
+                }
+            }
+
+            .down {
+                width: 100%;
+                gap: 2%;
+
+                .one {
+                    width: 55%;
+                    height: fit-content;
+
+                    img {
+                        width: 60%;
+                    }
+
+                    .plastine {
+                        height: fit-content;
+                        padding: 10px 0px;
+                        width: 25%;
+
+
+                        img {
+                            width: 80%;
+                        }
+                    }
+                }
+
+                .two {
+                    .main {
+                        width: 80%;
+                    }
+
+                    span {
+                        font-size: 14px;
+
+                        img {
+                            width: 15%;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .sec_three {
+            h1 {
+                font-size: 30px;
+            }
+
+            .parent {
+                .item {
+                    width: 30%;
+                    padding: 4vh 0;
+                    height: fit-content;
+
+
+                    img {
+                        width: 35%;
+                    }
+
+                    h2 {
+                        font-size: 16px;
+                        white-space: nowrap;
+                    }
+
+                    span {
+                        font-size: 10px;
+                        line-height: 0px;
+                        letter-spacing: 0px;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+
+        .sec_four {
+
+            h2 {
+                font-size: 30px;
+            }
+
+            .parent {
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-bottom: 5vh;
+
+
+                .item {
+                    width: 48%;
+                    margin-bottom: 4vh;
+                    padding: 20px;
+                    padding-right: 0px;
+
+                    .img {
+
+                        img {
+                            width: 65%;
+                        }
+
+                        .left {
+                            img {
+                                width: 85%;
+                            }
+                        }
+                    }
+
+
+                    .item_item {
+                        justify-content: space-between;
+                        padding-right: 25px;
+
+                        div {
+
+                            h3 {
+                                font-size: 16px;
+                            }
+
+                            span {
+                                font-size: 12px;
+                            }
+                        }
+
+                        .arrow {
+                            width: 25px;
+
+                        }
+                    }
+                }
+            }
+
+            button {
+                font-size: 16px;
+                white-space: nowrap;
+                padding: 15px 35px;
+            }
+        }
+
+        .sec_five {
+            h2 {
+                font-size: 30px;
+            }
+
+            .parent {
+                gap: 5%;
+
+                .right_arr {
+                    padding: 15px;
+
+                    img {
+                        width: 15px;
+                    }
+                }
+
+                .left_arr {
+                    padding: 15px;
+
+                    img {
+                        width: 15px;
+                    }
+                }
+
+                .item {
+                    width: 45%;
+
+                    .left {
+                        width: 60px;
+                    }
+
+                    .right {
+                        h3 {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sec_six {
+
+            h2 {
+                font-size: 30px;
+            }
+
+            .parent {
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .item {
+                    width: 48%;
+                    padding: 20px;
+                    margin-bottom: 4vh;
+
+                    .img {
+                        width: fit-content;
+                        img{
+                            width: 100%;
+                        }
+
+                    }
+
+                    .admin {
+                        .left {
+                            .img_box {
+                                width: 25px;
+                                height: 25px;
+
+                                img {
+                                    width: 18px;
+                                }
+
+                            }
+
+                            span {
+                                font-size: 14px;
+                            }
+                        }
+
+                        .right{
+                            span{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    .info{
+                        h3{
+                            font-size: 18px;
+                        }
+
+                        span{
+                            font-size: 12px;
+                        }
+                    }
+
+                    .nav{
+                        button{
+                            font-size: 13px;
+                            padding: 7px 18px;
+                        }
+
+                        .links{
+                            .img_box{
+                                width: 40px;
+                                height: 40px;
+
+                                img{
+                                    width: 25px;
+                                }
+                            }
+
+                            .img_box_sec{
+                                width: 40px;
+                                height: 40px;
+
+                                img{
+                                    width: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+       
+
     }
+
+    footer{
+        ul{
+            a{
+                font-size: 14px;
+            }
+        }
+
+        .item{
+            h2{
+                font-size: 18px;
+            }
+
+            span{
+                display: none;
+                font-size: 12px;
+                width: 100%;
+            }
+
+            .links{
+                gap: 15px;
+
+                .img_box{
+                    width: 40px;
+                    height: 40px;
+    
+                    img{
+                        width: 25px;
+                    }
+                }
+            }
+
+            .email_inpt{
+
+                input{
+                    padding: 7px 15px;
+                    font-size: 14px;
+                }
+
+                button{
+                    img{
+                        width: 20px;
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+
 
 }
 
