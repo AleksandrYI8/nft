@@ -126,12 +126,21 @@ header {
 
             }
 
+            
+
             .watch {
                 padding-left: 7px;
                 display: flex;
                 gap: 30px;
                 align-items: center;
                 margin-bottom: 3vh;
+
+                .box{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap:30px;
+                }
 
                 .image-wrapper {
                     display: flex;
@@ -212,6 +221,8 @@ header {
                     font-size: 18px;
                 }
             }
+
+            
 
             .count {
                 width: 80%;
@@ -1013,6 +1024,802 @@ footer {
 
 }
 
+@media (max-width: 1440px) {
+    header {
+        nav {
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .wrap {
+
+        .sec_one {
+            margin-bottom: 20vh;
+
+            .left {
+                h1 {
+                    font-size: 70px;
+                    line-height: 75px;
+
+                    span {
+                        line-height: 75px;
+                        font-size: 70px;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                }
+
+                .watch {
+                    button {
+                        font-size: 18px;
+                        padding: 20px 32px;
+                    }
+
+                    .image-wrapper {
+                        width: 60px;
+                        height: 60px;
+
+                        img {
+                            width: 22px;
+                            height: 22px;
+                        }
+                    }
+
+                    p {
+                        font-size: 18px;
+                    }
+                }
+
+                .count {
+                    .item {
+                        h2 {
+                            font-size: 30px;
+                        }
+
+                        span {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+
+            .right {
+                .one {
+                    width: 70%;
+                    top: 33%;
+                    right: 17%;
+                }
+
+                .two {
+                    width: 20%;
+                    top: 4%;
+                    left: 2%;
+                }
+
+                .three {
+                    width: 15%;
+                    right: 45%;
+                }
+
+                .four {
+                    width: 35%;
+                    top: 8%;
+                }
+
+                .five {
+                    width: 18%;
+                    bottom: 8%;
+                }
+            }
+        }
+
+        .sec_two {
+            .top {
+                gap: 5%;
+
+                h3 {
+                    font-size: 34px;
+                    white-space: nowrap;
+                }
+
+                span {
+                    font-size: 18px;
+                    white-space: nowrap;
+                }
+
+                button {
+                    font-size: 18px;
+                    white-space: nowrap;
+                    padding: 14px 28px;
+                }
+            }
+
+            .down {
+                width: 100%;
+                gap: 4%;
+
+                .one {
+                    width: 60%;
+                    height: fit-content;
+
+                    img {
+                        width: 80%;
+                    }
+
+                    .plastine {
+                        height: fit-content;
+                        padding: 14px 0;
+                        width: 35%;
+
+                        img {
+                            width: 85%;
+                        }
+                    }
+                }
+
+                .two {
+                    .main {
+                        width: 90%;
+                    }
+
+                    span {
+                        font-size: 18px;
+
+                        img {
+                            width: 18%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sec_three {
+            h1 {
+                font-size: 40px;
+            }
+
+            .parent {
+                .item {
+                    width: 30%;
+                    padding: 6vh 0;
+                    height: fit-content;
+
+                    img {
+                        width: 45%;
+                    }
+
+                    h2 {
+                        font-size: 20px;
+                        white-space: nowrap;
+                    }
+
+                    span {
+                        font-size: 14px;
+                        line-height: 1;
+                        letter-spacing: 0;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+
+        .sec_four {
+            h2 {
+                font-size: 40px;
+            }
+
+            .parent {
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-bottom: 7vh;
+
+                .item {
+                    width: 48%;
+                    margin-bottom: 5vh;
+                    padding: 30px;
+                    padding-right: 0;
+
+                    .img {
+                        img {
+                            width: 75%;
+                        }
+
+                        .left {
+                            img {
+                                width: 95%;
+                            }
+                        }
+                    }
+
+                    .item_item {
+                        justify-content: space-between;
+                        padding-right: 35px;
+
+                        div {
+                            h3 {
+                                font-size: 20px;
+                            }
+
+                            span {
+                                font-size: 16px;
+                            }
+                        }
+
+                        .arrow {
+                            width: 35px;
+                        }
+                    }
+                }
+            }
+
+            button {
+                font-size: 20px;
+                white-space: nowrap;
+                padding: 20px 45px;
+            }
+        }
+
+        .sec_five {
+            h2 {
+                font-size: 40px;
+            }
+
+            .parent {
+                gap: 5%;
+
+                .right_arr,
+                .left_arr {
+                    padding: 20px;
+
+                    img {
+                        width: 20px;
+                    }
+                }
+
+                .item {
+                    width: 45%;
+
+                    .left {
+                        width: 80px;
+                    }
+
+                    .right {
+                        h3 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sec_six {
+            h2 {
+                font-size: 40px;
+            }
+
+            .parent {
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .item {
+                    width: 48%;
+                    padding: 30px;
+                    margin-bottom: 6vh;
+
+                    .img {
+                        width: fit-content;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .admin {
+                        .left {
+                            .img_box {
+                                width: 32px;
+                                height: 32px;
+
+                                img {
+                                    width: 24px;
+                                }
+                            }
+
+                            span {
+                                font-size: 18px;
+                            }
+                        }
+
+                        .right {
+                            span {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+
+                    .info {
+                        h3 {
+                            font-size: 22px;
+                        }
+
+                        span {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .nav {
+                        button {
+                            font-size: 16px;
+                            padding: 10px 24px;
+                        }
+
+                        .links {
+                            .img_box,
+                            .img_box_sec {
+                                width: 50px;
+                                height: 50px;
+
+                                img {
+                                    width: 32px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        ul {
+            a {
+                font-size: 18px;
+            }
+        }
+
+        .item {
+            h2 {
+                font-size: 22px;
+            }
+
+            span {
+                display: none;
+                font-size: 16px;
+                width: 100%;
+            }
+
+            .links {
+                gap: 20px;
+
+                .img_box {
+                    width: 50px;
+                    height: 50px;
+
+                    img {
+                        width: 32px;
+                    }
+                }
+            }
+
+            .email_inpt {
+                input {
+                    padding: 10px 20px;
+                    font-size: 18px;
+                }
+
+                button {
+                    img {
+                        width: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1200px) {
+    header {
+        nav {
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .wrap {
+
+        .sec_one {
+            margin-bottom: 18vh;
+
+            .left {
+                h1 {
+                    font-size: 60px;
+                    line-height: 65px;
+
+                    span {
+                        line-height: 65px;
+                        font-size: 60px;
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                .watch {
+                    button {
+                        font-size: 16px;
+                        padding: 18px 28px;
+                    }
+
+                    .image-wrapper {
+                        width: 50px;
+                        height: 50px;
+
+                        img {
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+
+                .count {
+                    .item {
+                        h2 {
+                            font-size: 26px;
+                        }
+
+                        span {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            .right {
+                .one {
+                    width: 75%;
+                    top: 28%;
+                    right: 15%;
+                }
+
+                .two {
+                    width: 20%;
+                    top: 5%;
+                    left: 0%;
+                }
+
+                .three {
+                    width: 12%;
+                    right: 50%;
+                }
+
+                .four {
+                    width: 32%;
+                    top: 10%;
+                }
+
+                .five {
+                    width: 15%;
+                    bottom: 5%;
+                }
+            }
+        }
+
+        .sec_two {
+            .top {
+                gap: 5%;
+
+                h3 {
+                    font-size: 30px;
+                    white-space: nowrap;
+                }
+
+                span {
+                    font-size: 16px;
+                    white-space: nowrap;
+                }
+
+                button {
+                    font-size: 16px;
+                    white-space: nowrap;
+                    padding: 12px 24px;
+                }
+            }
+
+            .down {
+                width: 100%;
+                gap: 3%;
+
+                .one {
+                    width: 60%;
+                    height: fit-content;
+
+                    img {
+                        width: 70%;
+                    }
+
+                    .plastine {
+                        height: fit-content;
+                        padding: 12px 0;
+                        width: 30%;
+
+                        img {
+                            width: 80%;
+                        }
+                    }
+                }
+
+                .two {
+                    .main {
+                        width: 85%;
+                    }
+
+                    span {
+                        font-size: 16px;
+
+                        img {
+                            width: 15%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sec_three {
+            h1 {
+                font-size: 35px;
+            }
+
+            .parent {
+                .item {
+                    width: 28%;
+                    padding: 5vh 0;
+                    height: fit-content;
+
+                    img {
+                        width: 40%;
+                    }
+
+                    h2 {
+                        font-size: 18px;
+                        white-space: nowrap;
+                    }
+
+                    span {
+                        font-size: 12px;
+                        line-height: 0;
+                        letter-spacing: 0;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+
+        .sec_four {
+            h2 {
+                font-size: 35px;
+            }
+
+            .parent {
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-bottom: 6vh;
+
+                .item {
+                    width: 48%;
+                    margin-bottom: 4vh;
+                    padding: 25px;
+                    padding-right: 0;
+
+                    .img {
+                        img {
+                            width: 70%;
+                        }
+
+                        .left {
+                            img {
+                                width: 90%;
+                            }
+                        }
+                    }
+
+                    .item_item {
+                        justify-content: space-between;
+                        padding-right: 30px;
+
+                        div {
+                            h3 {
+                                font-size: 18px;
+                            }
+
+                            span {
+                                font-size: 14px;
+                            }
+                        }
+
+                        .arrow {
+                            width: 30px;
+                        }
+                    }
+                }
+            }
+
+            button {
+                font-size: 18px;
+                white-space: nowrap;
+                padding: 18px 40px;
+            }
+        }
+
+        .sec_five {
+            h2 {
+                font-size: 35px;
+            }
+
+            .parent {
+                gap: 5%;
+
+                .right_arr,
+                .left_arr {
+                    padding: 18px;
+
+                    img {
+                        width: 18px;
+                    }
+                }
+
+                .item {
+                    width: 45%;
+
+                    .left {
+                        width: 70px;
+                    }
+
+                    .right {
+                        h3 {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sec_six {
+            h2 {
+                font-size: 35px;
+            }
+
+            .parent {
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .item {
+                    width: 48%;
+                    padding: 25px;
+                    margin-bottom: 5vh;
+
+                    .img {
+                        width: fit-content;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .admin {
+                        .left {
+                            .img_box {
+                                width: 28px;
+                                height: 28px;
+
+                                img {
+                                    width: 20px;
+                                }
+                            }
+
+                            span {
+                                font-size: 16px;
+                            }
+                        }
+
+                        .right {
+                            span {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    .info {
+                        h3 {
+                            font-size: 20px;
+                        }
+
+                        span {
+                            font-size: 14px;
+                        }
+                    }
+
+                    .nav {
+                        button {
+                            font-size: 14px;
+                            padding: 8px 20px;
+                        }
+
+                        .links {
+                            .img_box,
+                            .img_box_sec {
+                                width: 45px;
+                                height: 45px;
+
+                                img {
+                                    width: 28px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        ul {
+            a {
+                font-size: 16px;
+            }
+        }
+
+        .item {
+            h2 {
+                font-size: 20px;
+            }
+
+            span {
+                display: none;
+                font-size: 14px;
+                width: 100%;
+            }
+
+            .links {
+                gap: 18px;
+
+                .img_box {
+                    width: 45px;
+                    height: 45px;
+
+                    img {
+                        width: 28px;
+                    }
+                }
+            }
+
+            .email_inpt {
+                input {
+                    padding: 8px 18px;
+                    font-size: 16px;
+                }
+
+                button {
+                    img {
+                        width: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 @media (max-width: 1024px) {
     header {
         nav {
@@ -1452,6 +2259,426 @@ footer {
 
 }
 
-@media (max-width: 786px) {}
+@media (max-width: 768px) {
+    header {
+        
+        nav {
+
+            display: none;
+
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .wrap {
+        .sec_one {
+            margin-bottom: 12vh;
+
+            .left {
+                padding-top: 5vh;
+                width: 100%;
+
+                h1 {
+                    font-size: 60px;
+                    line-height: 60px;
+                    align-items: start;
+                    
+
+                    span {
+                        line-height: 60px;
+                        font-size: 60px;
+
+                    }
+                }
+
+                p {
+                    font-size: 12px;
+
+                }
+
+                .watch {
+
+                    .box{
+                        gap: 10px;
+                    }
+
+                    button {
+                        font-size: 16px;
+                        padding: 14px 22px;
+                    }
+
+                    .image-wrapper {
+                        width: 40px;
+                        height: 40px;
+
+                        img {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+
+                    .count {
+                        border-radius: 5px;
+                        width: 100%;
+                        justify-content: space-around;
+
+                        .item {
+                            h2 {
+                                font-size: 25px;
+                            }
+    
+                            span {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+            }
+
+            .right {
+                display: none;
+                .one {
+                    width: 85%;
+                    top: 20%;
+                    right: 5%;
+                }
+
+                .two {
+                    width: 20%;
+                    top: 0%;
+                    left: 0%;
+                }
+
+                .three {
+                    width: 12%;
+                    right: 45%;
+                }
+
+                .four {
+                    width: 30%;
+                    top: 8%;
+                }
+
+                .five {
+                    width: 15%;
+                    bottom: 8%;
+                }
+            }
+        }
+
+        .sec_two {
+            .top { 
+
+                display: none;
+                gap: 3%;
+
+                h3 {
+                    font-size: 24px;
+                    white-space: nowrap;
+                }
+
+                span {
+                    font-size: 14px;
+                    white-space: nowrap;
+                }
+
+                button {
+                    font-size: 14px;
+                    white-space: nowrap;
+                    padding: 10px 20px;
+                }
+            }
+
+            .down {
+                width: 100%;
+                flex-direction: column;
+                gap: 20px;
+
+                .one {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .plastine {
+                        width: 40%;
+                        padding: 8px 0;
+
+                        img {
+                            width: 70%;
+                        }
+                    }
+                }
+
+                .two {
+                    .main {
+                        width: 100%;
+                    }
+
+                    span {
+                        font-size: 14px;
+
+                        img {
+                            width: 12%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sec_three {
+            h1 {
+                font-size: 28px;
+            }
+
+            .parent {
+                flex-direction: column;
+                gap: 20px;
+
+                .item {
+                    width: 100%;
+                    padding: 4vh 0;
+
+                    img {
+                        width: 35%;
+                    }
+
+                    h2 {
+                        font-size: 16px;
+                        white-space: nowrap;
+                    }
+
+                    span {
+                        font-size: 12px;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+
+        .sec_four {
+            h2 {
+                font-size: 28px;
+            }
+
+            .parent {
+                flex-wrap: wrap;
+                margin-bottom: 4vh;
+
+                .item {
+                    width: 100%;
+                    margin-bottom: 3vh;
+                    padding: 20px;
+                    padding-right: 0;
+
+                    .img {
+                        img {
+                            width: 60%;
+                        }
+
+                        .left {
+                            img {
+                                width: 80%;
+                            }
+                        }
+                    }
+
+                    .item_item {
+                        justify-content: space-between;
+                        padding-right: 20px;
+
+                        div {
+                            h3 {
+                                font-size: 16px;
+                            }
+
+                            span {
+                                font-size: 12px;
+                            }
+                        }
+
+                        .arrow {
+                            width: 25px;
+                        }
+                    }
+                }
+            }
+
+            button {
+                font-size: 16px;
+                white-space: nowrap;
+                padding: 14px 30px;
+            }
+        }
+
+        .sec_five {
+            h2 {
+                font-size: 28px;
+            }
+
+            .parent {
+                gap: 20px;
+                flex-direction: column;
+
+                .right_arr,
+                .left_arr {
+                    padding: 14px;
+
+                    img {
+                        width: 16px;
+                    }
+                }
+
+                .item {
+                    width: 100%;
+
+                    .left {
+                        width: 60px;
+                    }
+
+                    .right {
+                        h3 {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sec_six {
+            h2 {
+                font-size: 28px;
+            }
+
+            .parent {
+                flex-wrap: wrap;
+
+                .item {
+                    width: 100%;
+                    padding: 20px;
+                    margin-bottom: 4vh;
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .admin {
+                        .left {
+                            .img_box {
+                                width: 24px;
+                                height: 24px;
+
+                                img {
+                                    width: 18px;
+                                }
+                            }
+
+                            span {
+                                font-size: 14px;
+                            }
+                        }
+
+                        .right {
+                            span {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    .info {
+                        h3 {
+                            font-size: 18px;
+                        }
+
+                        span {
+                            font-size: 12px;
+                        }
+                    }
+
+                    .nav {
+                        button {
+                            font-size: 12px;
+                            padding: 6px 16px;
+                        }
+
+                        .links {
+                            .img_box,
+                            .img_box_sec {
+                                width: 40px;
+                                height: 40px;
+
+                                img {
+                                    width: 24px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+
+        flex-wrap: wrap;
+
+        ul {
+            a {
+                font-size: 14px;
+            }
+        }
+
+        .item {
+            h2 {
+                font-size: 18px;
+            }
+
+            span {
+                display: none;
+                font-size: 12px;
+                width: 100%;
+            }
+
+            .links {
+                gap: 16px;
+
+                .img_box {
+                    width: 40px;
+                    height: 40px;
+
+                    img {
+                        width: 24px;
+                    }
+                }
+            }
+
+            .email_inpt {
+                input {
+                    padding: 6px 16px;
+                    font-size: 14px;
+                }
+
+                button {
+                    img {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 @media (max-width: 480px) {}
